@@ -6,6 +6,3 @@ if direction == "right":
 	print("Your shoes got muddy.")
 else:
 	print("You made it home.")
-
-
-

@@ -1,8 +1,8 @@
 height = float(input("How tall are you (in inches)? "))
 
-if ???:
+if height > 70:
 	print("You are tall!")
-elif ???:
+if height > 65 and height <= 70:
 	print("You are about average.")
-else:
+if height <= 65:
 	print("You are short!")

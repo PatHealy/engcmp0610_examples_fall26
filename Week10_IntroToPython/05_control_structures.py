@@ -1,4 +1,4 @@
-am_tired = False
+am_tired = True
 
 if am_tired:
 	print("Drink an energy drink")
