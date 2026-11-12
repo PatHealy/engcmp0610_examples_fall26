@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Another way to handle style!</title>
+	<style>
+		.black-background{
+			background-color:black;
+			color:white;
+		}
+		.red-text{
+			color:red!important;
+		}
+	</style>
+</head>
+<body>
+	<h1>Classes instead of tags!</h1>
+
+	<p>In our prior examples, we showed how you could use css to describe the style of tags. In this page, we demonstrate how to define style by <i>classes</i> instead.</p>
+
+	<p class="black-background">This paragraph has a black background because it has the 'black-background' class, which I defined on line 6.</p>
+
+	<p class="red-text">This paragraph has red text because it has the 'red-text' class from line 9.</p>
+
+	<p class="red-text black-background">This paragraph is both! Tags can have multiple classes added to them! Notice that both classes interact with the text color, which is why I used the "!important" command on line 11, to make sure it took precedence over line 8.</p>
+
+</body>
+</html>
