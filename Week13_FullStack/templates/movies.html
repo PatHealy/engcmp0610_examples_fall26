@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Movie4u.com</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+	<style>
+		a{
+			text-decoration:none;
+		}
+		h1{
+			font-size:600%;
+		}
+		li{
+			font-size: 300%;
+		}
+	</style>
+</head>
+<body>
+	<div class="container d-flex justify-content-center align-items-center min-vh-100">
+		<div class="w-100">
+			<br/>
+			<div class="row">
+				<div class="col"></div>
+				<div class="col-8 text-center">
+					<section class="card bg-secondary">
+						<div class="card-body">
+							<h1 class="card-title">Top 4 Movies</h1>
+						</div>
+					</section>
+				</div>
+				<div class="col"></div>
+			</div>
+			<br/>
+			<div class="row">
+				<div class="col"></div>
+				<div class="col-8">
+					<ul class="list-group">
+						<!-- imagine I have a list named 'movies' -->
+						{% for movie in movies %}
+					  		<li class="list-group-item bg-secondary"> &bull; {{ movie }}</li>
+					  	{% endfor %}
+					</ul>
+				</div>
+				<div class="col"></div>
+			</div>
+			<br/>
+		</div>
+	</div>
+
+
+
+	
+	 <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+</body>
+</html>
