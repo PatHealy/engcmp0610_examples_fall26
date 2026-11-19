@@ -1,4 +1,7 @@
 - Make a more dynamic list application that the user can add to
 - Save that data permanently on the server side
-- Move that to be fully on the client side instead
-- 
+- Move that to be fully on the client side
+	- Basics of JavaScript
+	- document.getElementById and document.createElement + append
+	- classList.add and classList.remove
+
